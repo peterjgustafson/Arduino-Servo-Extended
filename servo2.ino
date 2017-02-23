@@ -6,7 +6,7 @@
 
 class ServoExtended
 {
-  // By Jude Gustafson 2-23-2017
+  // By Jude Gustafson 2-22-2017
   public:
   Servo servo; //the servo we are extending
   int digPin;      // the pin we are going to put our servo on
