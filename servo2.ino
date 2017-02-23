@@ -69,7 +69,7 @@ long endMillis = 0;
 int cascadeLength = 12;
 int currentOrientation = 0;
 int servoDegreesCascade[] = {
-  30, 30, -30, -30, 30, 30, -30, -30, 30, 30, -30, -30};
+  180, 180, -180, -180, 90, 90, -90, -90, 60, 60, -60, -60};
 
 
 boolean servosAreMoving = false;
@@ -118,32 +118,6 @@ void loop()
 
    
     currentServoIndex ++;
-    
-
-
-
-
-  
-//  myservo.write(45);
-//  myservo2.write(45);//goes to 15 degrees 
-//  myservo3.write(45);//goes to 15 degrees 
-//  delay(500);//wait for a second
-//  myservo.write(0);
-//  myservo2.write(0);//goes to 30 degrees 
-//  myservo3.write(0);//goes to 30 degrees 
-//  delay(100);//wait for a second.33
-//  myservo.write(90);
-//  myservo2.write(90);//goes to 45 degrees
-//  myservo3.write(90);//goes to 30 degrees  
-//  delay(750);//wait for a second.33
-//  myservo.write(0);
-//  myservo2.write(0);//goes to 45 degrees 
-//  myservo3.write(0);//goes to 30 degrees 
-//  delay(100);//wait for a second.33
-//  myservo.write(180);
-//  myservo2.write(180);//goes to 60 degrees
-//  myservo3.write(180);//goes to 30 degrees 
-//  delay(1000);//wait for a second.33
 }
 
 void moveServo(ServoExtended servo,int goal) {
